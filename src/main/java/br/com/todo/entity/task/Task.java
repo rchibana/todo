@@ -1,13 +1,10 @@
 package br.com.todo.entity.task;
 
-import org.springframework.data.annotation.Id;
-
 /**
  * Created by rchibana on 1/29/17.
  */
 public class Task {
 
-    @Id
     public Long id;
     public String name;
     public String description;
